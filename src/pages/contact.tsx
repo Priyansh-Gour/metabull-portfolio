@@ -4,11 +4,11 @@ import { Mail, Phone, MapPin, Clock, Send, ArrowRight } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Navigation from "@/components/Navigation";
-import Contact1 from "./ContactSection"
-import what from "./assets/assests/vecteezy_whatsapp-square-logo-on-a-transparent-background_42127116.png"
-import Insta from "./assets/assests/Instagram_logo_2016.svg.webp"
-import x from "./assets/assests/vecteezy_social-media-x-logo-black-and-white-png_36623772.png"
-import fb from "./assets/assests/vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930698.png"
+import Contact1 from "./ContactSection";
+import what from "./assets/assests/vecteezy_whatsapp-square-logo-on-a-transparent-background_42127116.png";
+import Insta from "./assets/assests/Instagram_logo_2016.svg.webp";
+import x from "./assets/assests/vecteezy_social-media-x-logo-black-and-white-png_36623772.png";
+import fb from "./assets/assests/vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930698.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -28,12 +28,12 @@ const Contact = () => {
           trigger: ".contact-section",
           start: "top 80%",
           end: "bottom 20%",
-          toggleActions: "play none none none"
+          toggleActions: "play none none none",
         },
       }
     );
 
-    return () => ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    return () => ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
   }, []);
 
   return (
@@ -86,7 +86,7 @@ const Contact = () => {
               { value: "100%", label: "Client Satisfaction" },
               { value: "50+", label: "Happy Clients" },
             ].map((stat, index) => (
-              <React.Fragment key={index}>
+              <div key={index} className="flex items-center gap-2 sm:gap-3">
                 {index > 0 && (
                   <div className="w-px h-6 sm:h-8 md:h-10 lg:h-12 bg-white/20"></div>
                 )}
@@ -98,7 +98,7 @@ const Contact = () => {
                     {stat.label}
                   </div>
                 </div>
-              </React.Fragment>
+              </div>
             ))}
           </div>
         </div>

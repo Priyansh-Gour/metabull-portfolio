@@ -62,8 +62,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <input
-                  type="email"
-                  name="email"
+                  type="text"
+                  name="subject"
                   placeholder="Your Subject"
                   value={formData.subject}
                   onChange={handleChange}

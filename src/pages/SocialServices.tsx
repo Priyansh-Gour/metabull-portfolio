@@ -7,6 +7,7 @@ import ThemeToggle from '@/components/ThemeToggle';
 import Navigation from '@/components/Navigation';
 import Threads from "./Threads";
 import { Code, Video, Check, ArrowRight, Star, Zap } from "lucide-react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 // Lazy load Spline component
