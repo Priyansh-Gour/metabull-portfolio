@@ -41,7 +41,7 @@ const Contact = () => {
       <Navigation />
 
       {/* Hero Section - Responsive Adjustments */}
-      <section className="relative px-4 sm:px-6 md:px-8 py-5 md:py-20 text-center pt-24">
+      <section className="md:pl-24 relative px-4 sm:px-6 md:px-8 py-5 md:py-20 text-center pt-24">
         {/* Background Video - Hidden on smallest screens */}
         <div className="absolute top-0 right-0 w-full md:w-1/3 h-full overflow-hidden opacity-20 hidden xs:block">
           <video
@@ -105,7 +105,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Section - Responsive Grid */}
-      <section className="contact-section px-4 sm:px-6 md:px-8 py-5 sm:py-8 md:py-12">
+      <section className="md:pl-24 contact-section px-4 sm:px-6 md:px-8 py-5 sm:py-8 md:py-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6  md:gap-10 lg:gap-12 xl:gap-16">
           {/* Contact Form - Full width on mobile, half on lg+ */}
           <Contact1 />
@@ -223,7 +223,7 @@ const Contact = () => {
       </section>
 
       {/* CTA - Responsive adjustments */}
-      <section className="px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16 lg:py-20 text-center bg-gradient-to-t from-white/5 to-transparent">
+      <section className="md:pl-24 px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16 lg:py-20 text-center bg-gradient-to-t from-white/5 to-transparent">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 tracking-wide text-glow">
             READY TO COLLABORATE?

@@ -184,7 +184,7 @@ const VideoServices = () => {
 
       {/* Hero Section with Spline */}
       <section
-        className="relative  md:px-6 py-8 md:py-16 text-center pt-24 top-[10vh]"
+        className="relative md:pl-24 md:px-6 py-8 md:py-16 text-center pt-24 top-[10vh]"
         ref={heroRef}
       >
         <div
@@ -229,7 +229,7 @@ const VideoServices = () => {
 
       {/* Services Grid */}
 
-      <section className="px-4 md:px-6 py-1 md:py-12">
+      <section className="md:pl-24 px-4 md:px-6 py-1 md:py-12">
         <div className="min-h-screen bg-background p-8">
           <div className="max-w-6xl mx-auto">
             {/* Button Group */}
@@ -432,7 +432,7 @@ const VideoServices = () => {
       </section>
 
       {/* Recent Work Section */}
-      <section className="px-4 md:px-6 py-1 md:py-12">
+      <section className="md:pl-24 px-4 md:px-6 py-1 md:py-12">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-light text-center mb-12 md:mb-16 tracking-wide">
             RECENT VIDEO PROJECTS
@@ -528,7 +528,7 @@ const VideoServices = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="px-4 md:px-6 py- md:py-12 text-center bg-gradient-to-t from-muted/20 to-transparent">
+      <section className="md:pl-24 px-4 md:px-6 py- md:py-12 text-center bg-gradient-to-t from-muted/20 to-transparent">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-orbitron font-light mb-6 md:mb-8 tracking-wide text-glow">
             TELL YOUR STORY

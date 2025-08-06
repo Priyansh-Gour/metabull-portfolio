@@ -255,7 +255,7 @@ const WebServices = () => {
 
       {/* Hero Section with Spline */}
       <section
-        className="relative  md:px-6 py-8 md:py-16 text-center pt-24 top-[10vh]"
+        className="relative md:pl-24 md:px-6 py-8 md:py-16 text-center pt-24 top-[10vh]"
         ref={heroRef}
       >
         <div
@@ -299,7 +299,7 @@ const WebServices = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="px-4 md:px-2 py-1 md:py-12">
+      <section className="md:pl-24 px-4 md:px-2 py-1 md:py-12">
         <div className="min-h-screen bg-background p-8">
           <div className="max-w-6xl mx-auto">
             {/* Button Group */}
@@ -502,7 +502,7 @@ const WebServices = () => {
       </section>
 
       {/* Recent Work Section */}
-      <section className="px-4 md:px-6 py-8 md:py-12 py-30 " ref={projectsRef}>
+      <section className="md:pl-24 px-4 md:px-6 py-8 md:py-12 py-30 " ref={projectsRef}>
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 tracking-wide">
             RECENT WEB PROJECTS
@@ -574,7 +574,7 @@ const WebServices = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="px-4 md:px-6 py-5 md:py-12 pb-[20vh] text-center bg-gradient-to-t from-white/5 to-transparent">
+      <section className="md:pl-24 px-4 md:px-6 py-5 md:py-12 pb-[20vh] text-center bg-gradient-to-t from-white/5 to-transparent">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-4xl text-foreground font-bold mb-4 md:mb-6 tracking-wide">
             READY TO BUILD THE FUTURE?

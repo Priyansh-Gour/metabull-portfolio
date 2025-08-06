@@ -178,7 +178,7 @@ const SocialServices = () => {
       <Navigation />
 
       {/* Hero Section - Split Layout */}
-      <section className=" md:px-6 text-center py-12  md:py-20 md:mt-[15vh]">
+      <section className="md:pl-24 md:px-6 text-center py-12  md:py-20 md:mt-[15vh]">
         <div
           style={{ width: "100%", height: "300px", position: "relative" }}
           className="md:hidden block"
@@ -224,7 +224,7 @@ const SocialServices = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="px-4 md:px-6 py-1 md:py-12">
+      <section className="md:pl-24 px-4 md:px-6 py-1 md:py-12">
         <div className="min-h-screen bg-background p-8">
           <div className="max-w-6xl mx-auto">
             {/* Button Group */}
@@ -433,7 +433,7 @@ const SocialServices = () => {
       </section>
 
       {/* Recent Work Section */}
-      <section className="px-4 md:px-6 py-12 md:py-20">
+      <section className="md:pl-24 px-4 md:px-6 py-12 md:py-20">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-light text-center mb-12 md:mb-16 tracking-wide">
             RECENT SOCIAL CAMPAIGNS
@@ -629,7 +629,7 @@ const SocialServices = () => {
       </section>
 
       {/* Platforms Section */}
-      <section className="px-4 md:px-6 py-1 md:py-12">
+      <section className="md:pl-24 px-4 md:px-6 py-1 md:py-12">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-4xl font-light mb-8 md:mb-12 tracking-wide">
             PLATFORMS WE MASTER
@@ -660,7 +660,7 @@ const SocialServices = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="px-4 md:px-6 py-1 md:py-12 text-center mb-48">
+      <section className="md:pl-24 px-4 md:px-6 py-1 md:py-12 text-center mb-48">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-light mb-6 md:mb-8 tracking-wide">
             AMPLIFY YOUR VOICE

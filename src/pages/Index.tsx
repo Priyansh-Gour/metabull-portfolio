@@ -132,7 +132,7 @@ const Index = () => {
       <Navigation />
 
       {/* Hero Section - Split Layout */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden pt-16">
+      <section className="md:pl-24 relative h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center h-full">
             {/* Left Content */}
@@ -187,7 +187,7 @@ const Index = () => {
       </section>
 
       {/* Marquee Section */}
-      <div id="marquee" className="bg-black/30  origin-right px-10">
+      <div id="marquee" className="bg-black/30 origin-right px-10">
         <div className="h1">
           {allImages.map((img, index) => (
             <img
@@ -215,7 +215,7 @@ const Index = () => {
 
       {/* Services Preview */}
       <section
-        className="px-4 md:px-6 py-4 md:py-16 bg-gradient-to-b from-background to-muted/20"
+        className="px-4 md:pl-24 md:px-6 py-4 md:py-16 bg-gradient-to-b from-background to-muted/20"
         ref={servicesRef}
       >
         <div className="max-w-7xl mx-auto">

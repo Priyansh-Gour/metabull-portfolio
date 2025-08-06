@@ -104,7 +104,7 @@ const Services = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="services-grid px-4 md:px-3 py-5 md:py-12">
+      <section className="md:pl-24 services-grid px-4 md:px-3 py-5 md:py-12">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
             {[
@@ -238,7 +238,7 @@ const Services = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="px-4 md:px-6 py-12 md:py-20 bg-gradient-to-t from-white/5 to-transparent">
+      <section className="md:pl-24 px-4 md:px-6 py-12 md:py-20 bg-gradient-to-t from-white/5 to-transparent">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 md:mb-16 tracking-wide text-glow">
             WHY CHOOSE US
